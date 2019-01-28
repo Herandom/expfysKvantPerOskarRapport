@@ -9,3 +9,5 @@ kör scriptet, det kommer öppnas en figur, press any button för att gå ur pau
 Därefter väljs basnivån, alla peakar under denna bortses ifrån.
 Ett tryck till så väljer du din lägre gräns för delen av spektrat du vill fitta, och slutligen väljer du den övre gränsen. Enjoy the fitting of peaks.
 
+I kvant delux finns flera olika modeller för fitting, har du för mycket fritid kan det vara kul att kolla igenom vad alla gör och hur de påverkar resultatet :)
+
