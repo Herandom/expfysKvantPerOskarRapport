@@ -11,5 +11,5 @@ Ett tryck till så väljer du din lägre gräns för delen av spektrat du vill f
 
 I kvant delux finns flera olika modeller för fitting, har du för mycket fritid kan det vara kul att kolla igenom vad alla gör och hur de påverkar resultatet :)
 
-
+För att köra extrauppgiften, byt ut den data som blir inläst till ngn av .txt filerna i mappen "extra"
 

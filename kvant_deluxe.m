@@ -1,4 +1,4 @@
-addpath kalibrering
+%addpath kalibrering
 %addpath grunduppgift
 addpath heliumbös
 addpath extra

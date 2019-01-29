@@ -1,14 +1,12 @@
 %% He-energy matr
 %read data
 thin = char(8201);
-addpath kvantlabb
 addpath heliumbös
-addpath extra
 heL=importdata('heliumL.txt');
 heJ=importdata('heliumJ.txt');
 heS=importdata('heliumS.txt');
-heLS=importdata('heliumbös\heliumLS.txt');
-heConf=importdata('heliumbös\heliumConfShort.txt');
+heLS=importdata('heliumLS.txt');
+heConf=importdata('heliumConfShort.txt');
 heElevel=importdata('heliumenergy.txt');
 antalData=length(heElevel);
 heEnergyDelta=ones(antalData,antalData);%rad minus
@@ -20,6 +18,7 @@ for i=1:antalData
         end
     end
 end
+toppar=[];
 %% Fitting
 %Runs Oskars fit peaks script
 
@@ -156,7 +155,7 @@ energylevelsplot=energylevels;
 hold on
 deltax=0.8; 
 deltaxarrow=0;
-singlett=0 %flag for if statement
+singlett=0; % for if statement
 for i=2:2:length(energylevelsplot)
 
    if ((heS(energylevelsindex(i))==singlett) && (heS(energylevelsindex(i-1))==singlett))
@@ -212,7 +211,7 @@ xmidline=[midlineX midlineX];
 ymidline=[1.55e5 2e5];
 plot(xmidline, ymidline,'k','linewidth',1.25)
 %ylabelstring=('Energy [' texlabel('cm^(-1)') ')')1009.146162695160
-ylabelstring=strcat('Energi  [',texlabel('cm^(-1)'),']')
+ylabelstring=strcat('Energi  [',texlabel('cm^(-1)'),']');
 ylabel(ylabelstring,'fontsize',12)
 xlabel('LS-termer ','fontsize',12)
 %d är på 2.4
