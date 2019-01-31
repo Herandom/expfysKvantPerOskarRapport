@@ -6,8 +6,10 @@ How to run: för grunduppgiften kör man bara transiAnalys.m och hoppas på det 
 
 Kvant_deluxe:
 kör scriptet, det kommer öppnas en figur, press any button för att gå ur pausläget.
-Därefter väljs basnivån, alla peakar under denna bortses ifrån.
-Ett tryck till så väljer du din lägre gräns för delen av spektrat du vill fitta, och slutligen väljer du den övre gränsen. Enjoy the fitting of peaks.
+Därefter väljer du din lägre våglängdsgräns för delen av spektrat du vill fitta, sedan väljer du den övre gränsen 
+och sist väljer du basnivån.  Alla peakar under basnivån bortses ifrån.
+
+Enjoy the fitting of peaks.
 
 I kvant_deluxe finns flera olika modeller för fitting, har du för mycket fritid kan det vara kul att kolla igenom vad alla gör och hur de påverkar resultatet :)
 
